@@ -17,8 +17,6 @@ def join(*lists: list, sep: str = '-') -> list or None:
     return None
 
 
-"""
-An example usage:
-join([1, 2], [8], [9, 5, 6], sep='@')
->>> [1, 2, '@', 8, '@', 9, 5, 6]
-"""
+if __name__=="__main__":
+    print(join([1, 2], [8], [9, 5, 6], sep='@'))
+    
