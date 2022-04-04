@@ -13,8 +13,7 @@ def way(path: str) -> list[str]:
     [files.append(name) for name in list(arr) if name.startswith("deep")]
     return files
 
-"""
-An example usage:
-print(way(r"C:\Users\IMOE001\Downloads"))
->>['deep.txt', 'deepmkvgk.txt']
-"""
+
+if __name__=="__main__":
+    print(way(r"C:\Users\IMOE001\Downloads"))
+ 
