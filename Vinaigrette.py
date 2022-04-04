@@ -20,10 +20,8 @@ def vinaigrette(start_date: str, end_date: str) -> None:
     day = rand_date.strftime('%a')
     if day == "Mon":
         print("אין לי ויניגרט!")
-
-
-"""
-An example usage:
-vinaigrette("2001-03-02", "2022-03-27")
-return None Because the date drawn is not Monday
-"""
+        
+        
+if __name__ == "__main__":
+    print(vinaigrette("2001-03-02", "2022-03-27"))
+    
